@@ -51,5 +51,40 @@ public class string {
                 }
                 
           }while(true);
+
+
+
+        //Other ways to create matching sequence
+                 
+            String[] username = {"Moises", "Mac", "Paule"};
+            String locate = "Moises";
+            
+            for(int x = 0; x < username.length; x++)
+                
+            if (locate.equals(username[x])){
+                System.out.println("Username Found");
+            }else{
+                System.out.println("USername not found");
+            }
+            
+             String[] names = {"Juan", "Pedro", "Maria", "Rui", "Anna","MICO!"};
+        String searchname = "MICO!";
+        boolean foundname=false;
+        
+          for(int i=0; i<names.length; i++){
+                if(names[i].equals(searchname)){
+                  foundname=true;
+                  break;
+            }
+        }
+          
+          if(foundname){
+                    System.out.println(searchname+ " is found!!!");
+                }
+                else{
+                    System.out.println(searchname+ " is not found!!!");
+                }
+     
+
 }
 }
