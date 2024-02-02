@@ -31,5 +31,25 @@ public class string {
                   }
 
               }
+
+                    //an if statement outside the loop returning false once only
+              // if the matcher is inside the forloop it will print every false statements
+                 if(matcher != true){
+                      System.out.println("Names are not Matched!");
+                  }
+          
+               //Ask input for Reinitializing the program 
+              System.out.print("Retry? ");
+                char set = s.next().toUpperCase().charAt(0);
+                if ( set == ('Y')){
+                    System.out.println("Okay");
+                    continue;
+                }
+                else if (set == 'N'){
+                    System.out.println("End program!");
+                    break;
+                }
+                
+          }while(true);
 }
 }
