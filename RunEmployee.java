@@ -106,4 +106,65 @@ public class RunEmployee {
                 return wage;
             }
         }
-   
+
+//import java.util.*;
+//public class RunEmployee {
+//    public static void main (String[] args){
+//        
+//        //This is a cleaner version, only relying on sets and gets
+//    
+//        Scanner s = new Scanner (System.in);
+//        
+//        Employee p0 = new Employee();
+//             p0.setName(s.nextLine());
+//       
+//        FullTimeEmployee p1 = new FullTimeEmployee();
+//            p1.getMonthly();
+//    
+//        PartTimeEmployee p2 = new PartTimeEmployee();
+//           p2.setSalaryWage(s.nextDouble(), s.nextDouble());
+//             
+//    }
+//    
+//    public static class Employee{
+//        String Name;
+//        
+//            public void setName(String Name){
+//                this.Name = Name;
+//            }
+//            public String getName(){
+//                return Name;
+//            }
+//    }
+//     
+//    
+//    public static class FullTimeEmployee extends Employee{
+//        double monthly;
+//        
+//           
+//            public void setMontly(double Monthly){
+//                this.monthly = Monthly;
+//            }
+//            public double getMonthly(){
+//                return monthly;
+//            }
+// 
+//    }  
+//    
+//    public static  final class PartTimeEmployee extends Employee {
+//        double ratePerHour =0;
+//        double salary =0;
+//        double SalaryWage =0;
+//        
+//          
+//            public  void setSalaryWage(double ratePerHour, double salary){
+//                SalaryWage = ratePerHour * salary;
+//            
+//            }
+//            public double getSalaryWage(){
+//                return SalaryWage;
+//            }
+// 
+//    }
+//    
+//}
