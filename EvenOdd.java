@@ -50,9 +50,15 @@ int[] num = {1,2,3,4,5,6,7,8,9,10};
                if(num2[ctr]%2==0){
                    evenlist+= num2[ctr]+" ";
                }
-               else{
+               else if (num2[ctr%2!=0]){
                    oddlist+= num2[ctr]+" ";
                }
+                else if(var[i]==0){
+            System.out.println("Value is 0");
+                }
+                else{
+            System.out.println("Error");
+                }  
            }
            System.out.println("Even: " + evenlist);
            System.out.println("Odd: " + oddlist);     
