@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package paule_midexam;
+package randomNum_Matcher;
 
 import java.util.*;
 
@@ -39,7 +39,7 @@ class player{
         }    
     }
 
-public class Paule_midexam {
+public class RandomNum_Matcher {
     public static void main (String[] args){
         algo a1 = new algo();
         Scanner s = new Scanner(System.in);
